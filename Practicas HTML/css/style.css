@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo-principal {
+  text-align: center;
+}
+
+.logo-principal img {
+  width: 210px;
+  border-radius: 50%;
+  border: 1px solid rgb(255, 0, 200);
+}
+
+.navbar {
+  /* margin-top: 40px; */
+  display: flex;
+  justify-content: space-around;
+  background-color: blanchedalmond;
+  padding: 20px 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pasteles {
+  margin-top: 40px;
+}
+
+.pasteles > h1 {
+  text-align: center;
+}
+
+.galeria-pasteles {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+
+.pastel-item {
+  flex-basis: 22%;
+  margin: 20px 0;
+  text-align: center;
+  border: 1px solid #dadada;
+  border-radius: 20px;
+  padding: 10px 0;
+  position: relative;
+}
+
+.pastel-item img {
+  width: 11em;
+  margin-bottom: 40px;
+}
+
+.pastel-item {
+  font-weight: bold;
+}
+
+.pastel-descrip {
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+
+footer {
+  display: flex;
+  height: 200px;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+  background-color: #dadada;
+}
+
+footer div {
+  text-align: center;
+  font-weight: bolder;
+}
+
+footer div {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.informac-item img {
+  width: 30px;
+  margin-bottom: -5px;
+}
+
+.formulario {
+  text-align: center;
+}
+
+.formulario label {
+  font-weight: bold;
+}
+
+.formulario p {
+  font-weight: bold;
+}
+
+.formulario select {
+  font-weight: 700;
+}
+
+.disponible {
+  color: green;
+}
+
+.Nodisponible {
+  color: red;
+}
+
+.expirar {
+  color: rgb(248, 141, 0);
+}
+
+.pedidos {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 90%;
+  /* border: 1px solid #000; */
+  border-collapse: collapse;
+}
+
+th,
+td {
+  /* width: 25%; */
+  padding: 10px;
+  text-align: center;
+  vertical-align: top;
+  border: 1px solid #000;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+thead th {
+  background-color: antiquewhite;
+}
